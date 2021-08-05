@@ -135,3 +135,28 @@ body {
 .dropdown-item:hover{
     background-color: white!important;
 }
+
+@media (min-width: 278px) and (max-width:285px){
+.select-icon {
+    width: 30px;
+    margin-left: 100px;
+}
+.eye {
+    position: absolute;
+    top: 327px;
+    left: 200px;
+    width: 30px;
+}
+}
+@media (min-width: 318px) and (max-width:330px){
+   .select-icon {
+    width: 30px;
+    margin-left: 140px;
+}
+.eye {
+    position: absolute;
+    top: 327px;
+    left: 238px;
+    width: 30px;
+}
+}
