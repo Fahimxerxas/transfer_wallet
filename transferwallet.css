@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&display=swap');
+
+html{
+    width: 100%;
+}
+body {
+   height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Baloo 2', cursive;
+    background: linear-gradient(45deg, rgb(233,232,228),rgb(244,243,236));
+}
+
+
+.content{
+   position: relative;
+}
+
+
+.no-padding{
+    margin:0!important;
+    padding:0!important;
+}
+
+.container {
+    width: 350px;
+    height: 100%;
+    border-radius: 20px;
+    margin-top: 50px;
+    background-color: #212932;
+    overflow: hidden;
+    box-shadow: 0px 20px 50px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+   position: relative;
+}
+
+
+
+
+
+
+.own-fund{
+    background-color: #FEFF00;
+    color: black;
+    padding: 10px 30px;
+    font-weight: 500;
+}
+
+
+.bottom{
+   position: relative;
+    background-color: black;
+    z-index: 5;
+    padding: 2px 10px;
+    margin-top: 7vh;
+}
+.wallet-text{
+    color: #FEFF00;
+    padding: 10px 30px;
+}
+.balance-text{
+    color: #00D3FF;
+    padding: 10px 30px;
+}
+.select{
+    color: #FEFF00;
+    padding: 10px 30px;
+}
+.field{
+    background-color: #FEFF00;
+    border: 1px solid #FEFF00;
+    color: #5A5A60;
+    font-weight: 500;
+    width: 100%;
+    text-align: left;
+    position: relative;
+
+}
+.select-text{
+    color: black;
+}
+.select-icon{
+    width: 30px;
+    margin-left: 177px;
+}
+
+.eye{
+    position: absolute;
+    top: 327px;
+    left: 265px;
+    width: 30px;
+}
+.sbmt-btn{
+   background-color: #FEFF00;
+    border: 1px solid #FEFF00;
+    color: black;
+    font-weight: 700;
+    padding: 6px 40px;
+    border-radius: 15px;
+    margin: 0 auto;
+    display: block;
+
+}
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: .25rem 1rem;
+    clear: both;
+    font-weight: 700;
+    color: #212529;
+    text-align: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: #feff00!important;
+    border: 0;
+}
+.dropdown-menu {
+    position: absolute;
+    z-index: 1000;
+    display: none;
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #feff00!important;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+    width: 100%;
+}
+.dropdown-item:hover{
+    background-color: white!important;
+}
